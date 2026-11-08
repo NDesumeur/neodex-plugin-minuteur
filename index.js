@@ -1,4 +1,4 @@
-// Minuteur : plusieurs minuteurs en même temps, chacun avec son anneau pixel, son nom et sa sonnerie.
+// Minuteur : plusieurs minuteurs en même temps, chacun avec son anneau, son nom et sa sonnerie.
 // Plugin d'exemple entièrement autonome (seulement la permission « storage »). Les minuteurs gardent leur heure de fin : ils continuent même si tu fermes l'onglet.
 export default function (ctx) {
   const S = ctx.el('style');

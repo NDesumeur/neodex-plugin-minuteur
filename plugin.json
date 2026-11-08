@@ -3,7 +3,7 @@
   "name": "Minuteur",
   "version": "1.1.2",
   "author": "NDesumeur",
-  "description": "Un minuteur simple : il retient ta dernière durée et te prévient à la fin.",
+  "description": "Plusieurs minuteurs en même temps : saisis une durée jusqu'à 99 heures ou choisis-en une toute prête (1 min à 1 h), donne un nom si tu veux, et chaque minuteur a sa carte avec un anneau qui se vide, pause, reprise, remise à zéro et suppression. À la fin : trois bips, une notification et la carte qui clignote. Le décompte continue même onglet fermé.",
   "entry": "index.js",
   "view": "minuteur",
   "neobase": ">=4.0.0",
