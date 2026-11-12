@@ -9,6 +9,7 @@
   "neobase": ">=4.0.0",
   "type": "app",
   "category": "Outils",
+  "compatibility": ["windows", "android", "linux"],
   "syncMode": "fusion",
   "syncInfo": "Tes minuteurs enregistrés.",
   "mobile": true,
