@@ -5,6 +5,7 @@ export default function (ctx) {
   S.textContent = `
     .mn{display:flex;flex-direction:column;gap:18px;padding:22px;box-sizing:border-box;max-width:880px;margin:0 auto;color:var(--shell,#fff)}
     .mn h2{font:16px var(--title,monospace);margin:0;letter-spacing:1px}
+    .mn .moved{padding:14px 16px;font-size:16px;line-height:1.5;color:#fff;background:color-mix(in srgb,var(--magenta,#e01ec8) 30%,#000);box-shadow:inset 0 0 0 2px var(--magenta,#e01ec8)}
     .mn .new{display:flex;flex-direction:column;gap:12px;padding:16px;background:color-mix(in srgb,var(--line2,#3a2a6e) 45%,#000);box-shadow:inset 0 0 0 2px var(--line2,#3a2a6e)}
     .mn .set{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
     .mn input{font:22px var(--title,monospace);width:64px;text-align:center;color:#fff;background:#0d0820;border:2px solid var(--line2,#3a2a6e);padding:8px 4px}
@@ -36,7 +37,8 @@ export default function (ctx) {
   const form = ctx.el('div', 'new'), set = ctx.el('div', 'set');
   set.append(iH, sep(), iM, sep(), iS, iName, bAdd);
   form.append(ctx.el('h2', '', 'NOUVEAU MINUTEUR'), set, presets);
-  root.append(form, ctx.el('h2', '', 'MES MINUTEURS'), grid);
+  const moved = ctx.el('div', 'moved', 'Minuteur rejoint Chronobox : plusieurs minuteurs en même temps (jusqu’à 99 h), plus un chronomètre, un Pomodoro et des comptes à rebours. Installe Chronobox depuis le NeoStore ; Minuteur ne recevra plus de mise à jour, mais tes minuteurs ici continuent de marcher.');
+  root.append(moved, form, ctx.el('h2', '', 'MES MINUTEURS'), grid);
   ctx.view.append(S, root);
 
   let timers = [], raf = null;

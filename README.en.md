@@ -34,3 +34,7 @@ Your timers (name, duration, remaining time, end time) are stored by NeoDex, bac
 In NeoDex: **NeoStore → Discover → Minuteur → Install**.
 
 Building a plugin: see the [NeoDex SDK](https://github.com/NDesumeur/neodex-sdk).
+
+## Replaced by Chronobox
+
+Timer will get no more updates: everything it does is in Chronobox's « Timers » tab, plus a stopwatch, a Pomodoro and countdowns. Install Chronobox from the NeoStore.

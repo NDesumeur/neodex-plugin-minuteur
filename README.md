@@ -34,3 +34,7 @@ Tes minuteurs (nom, durée, temps restant, heure de fin) sont enregistrés par N
 Dans NeoDex : **NeoStore → À découvrir → Minuteur → Installer**.
 
 Développer un plugin : voir le [SDK NeoDex](https://github.com/NDesumeur/neodex-sdk).
+
+## Remplacé par Chronobox
+
+Minuteur ne recevra plus de mise à jour : tout ce qu'il fait est dans l'onglet « Minuteurs » de Chronobox, avec en plus un chronomètre, un Pomodoro et des comptes à rebours. Installe Chronobox depuis le NeoStore.
